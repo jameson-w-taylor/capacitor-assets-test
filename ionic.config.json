@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-assets-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
