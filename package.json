@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "assets": "capacitor-assets generate --iconBackgroundColor '#f1ebe1' --splashBackgroundColor '#f1ebe1' --iconBackgroundColorDark '#110b00' --splashBackgroundColorDark '#110b00'",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -28,6 +29,7 @@
     "react-router-dom": "^5.3.4"
   },
   "devDependencies": {
+    "@capacitor/assets": "^3.0.4",
     "@capacitor/cli": "5.7.4",
     "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.16.5",
